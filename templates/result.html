@@ -1,0 +1,29 @@
+{{define "result"}}
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>授权跳转页面</title>
+</head>
+<body>
+<h2>登录成功!</h2>
+<p>hello
+    <span id="name">{{.Login}}</span>
+</p>
+<p>
+    <img id="avatar" src="{{ .AvatarUrl}}" alt="">
+</p>
+<p>
+    <a href="https://www.sofuny.cn">回到首页</a>
+</p>
+<script type="application/javascript">
+    let name = document.getElementById("name");
+    let avatar = document.getElementById("avatar");
+    console.log(name.innerHTML)
+    console.log(avatar.src)
+    window.localStorage.setItem("username", name.innerText);
+    window.localStorage.setItem("avatar", avatar.src);
+</script>
+</body>
+</html>
+{{end}}

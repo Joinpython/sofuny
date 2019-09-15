@@ -1,0 +1,45 @@
+{
+  "name": "",
+  "author": "",
+  "email": "",
+  "abstract": "",
+  "description": "",
+  "api": "",
+  "staticApi": "",
+  "category": [],
+  "database": {
+    "driver": "",
+    "name": "",
+    "user": "",
+    "password": ""
+  },
+  "auth": {
+    "github": {
+      "app_id": "",
+      "app_key": "",
+      "state": ""
+    }
+  },
+  "upyun": {
+    "bucket": "",
+    "operator": "",
+    "password": "",
+    "fileUrl": ""
+  },
+  "submail": {
+    "email": {
+      "app_id": "",
+      "app_key": "",
+      "reply": ""
+    },
+    "sms": {
+      "app_id": "",
+      "app_key": ""
+    }
+  },
+  "basicAuth": {
+    "username": "",
+    "password": "",
+    "key": ""
+  }
+}
