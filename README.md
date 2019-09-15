@@ -11,7 +11,7 @@
 
 ## Getting started
 ```bash
-$ git clone https://gitee.com/sofuny/sofuny.git
+$ git clone https://github.com/tqblogs/sofuny.git
 ```
 #### 相关配置
 查看 config.json 并进行相关配置
